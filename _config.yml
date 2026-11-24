@@ -1,0 +1,23 @@
+title: blog
+description: 考えたことを書き残す場所
+lang: ja
+timezone: Asia/Tokyo
+
+# https://opoblblfozb.github.io/blog/ で公開する
+url: https://opoblblfozb.github.io
+baseurl: /blog
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+
+minima:
+  date_format: "%Y-%m-%d"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
